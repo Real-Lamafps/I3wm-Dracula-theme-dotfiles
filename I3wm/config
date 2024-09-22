@@ -9,7 +9,7 @@
 #
 # Please see https://i3wm.org/docs/userguide.html for a complete reference!
 
-exec_always --no-startup-id xrandr --output DP-0 --mode 1920x1080 --rate 360
+#exec_always --no-startup-id xrandr --output DP-0 --mode 1920x1080 --rate 360
 
 set $mod Mod4
 
