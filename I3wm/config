@@ -9,8 +9,7 @@
 #
 # Please see https://i3wm.org/docs/userguide.html for a complete reference!
 
-exec_always --no-startup-id lock
-
+exec_always --no-startup-id xrandr --output DP-0 --mode 1920x1080 --rate 360
 
 set $mod Mod4
 
@@ -55,7 +54,7 @@ floating_modifier $mod
 tiling_drag modifier titlebar
 
 # start a terminal
-bindsym $mod+Return exec --no-startup-id alacritty 
+bindsym $mod+Return exec --no-startup-id alacritty
 
 # kill focused window
 bindsym $mod+Shift+q kill
@@ -219,10 +218,10 @@ gaps inner 10px
 #gaps outer 5px
 
 
-
 #autostart
 exec --no-startup-id nitrogen --restore
-exec --no-startup-id picom 
+exec_always --no-startup-id picom 
 exec_always --no-startup-id autotiling
 exec --no-startup-id polybar
-exec --no-startup-id setxkbmap no,de 
+exec --no-startup-id setxkbmap no,de
+exec_always --no-startup-id /usr/bin/dunst
