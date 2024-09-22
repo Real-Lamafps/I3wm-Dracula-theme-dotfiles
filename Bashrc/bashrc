@@ -6,8 +6,8 @@
 
 alias ll='ls -l --color=auto'
 alias grep='grep --color=auto'
-alias vi='vim '
+alias vi='nvim'
 PS1='\[\e[96m\]\w\n\[\e[0;1m\]>\[\e[0m\] '
 
-pfetch
+. "$HOME/.cargo/env"
 
