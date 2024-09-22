@@ -70,5 +70,5 @@ TERM = "alacritty"
 size = 12.0
 
 [font.normal]
-family = "JetBrains mono"
+family = "0xProto Nerd Font"
 style = "Regular"
