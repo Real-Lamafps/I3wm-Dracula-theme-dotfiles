@@ -1,5 +1,5 @@
 # I3wm-Dracula-theme-dotfiles
 
-This is all my config files for Dracula theme I3wm.
+This is all my config files i use on my i3wm desktop.
 
-26.03.24
+
